@@ -1,0 +1,15 @@
+.c-family {
+    width: 87%;
+    height: auto    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .text-p 
+{
+    width: 100%;
+    height: 80vh;
+    overflow: scroll;
+    background-color: red;
+} */

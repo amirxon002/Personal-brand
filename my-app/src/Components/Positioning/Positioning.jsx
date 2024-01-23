@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { FaArrowCircleRight } from "react-icons/fa";
+import React from 'react'
 
 import "./Positioning.css"
 import LeftNav from '../Left nav/LeftNav';
@@ -8,31 +7,6 @@ import positioning4 from "./../images/positioning4.png"
 import { Link } from 'react-router-dom';
 
 function Positioning() {
-
-  const [showButton, setShowButton] = useState(false);
-
-  // useEffect(() => {
-  // function handleScroll() {
-
-  // Calculate if the user has scrolled to the bottom
-  //     const isBottom = window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight;
-
-  //     // Show the button if scrolled to the bottom
-  //     setShowButton(isBottom);
-  //   }
-
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => window.removeEventListener('scroll', handleScroll);
-  // }, []);
-
-  // const scrollToTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth'
-  //   });
-  // };
-
-
 
   return (
     <div className='c-job'>
@@ -68,15 +42,7 @@ function Positioning() {
           <p>Just one word of warning: it's often a good idea to leave your nearest and dearest out of
             these informal focus groups. Look for people who will be definitely, brutally honest with <Link to="/demonstration" style={{color:"black"}}> you! </Link></p>
         </div>
-        {/* <div>
-          <div style={{ height: '2000px' }}>Scroll to see the button</div>
-          Conditionally render the button
-          {showButton && (
-            <button onClick={scrollToTop}>
-              Click me at the bottom!
-            </button>
-          )}
-        </div> */}
+       
       </div>
 
 

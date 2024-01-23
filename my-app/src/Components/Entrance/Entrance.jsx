@@ -1,6 +1,6 @@
 import React from 'react'
 // import {} from "react-icons/ti";
-import { FaArrowRight, FaArrowRightFromBracket, FaCircleArrowRight } from "react-icons/fa6";
+import { FaCircleArrowRight } from "react-icons/fa6";
 
 import "./Entrance.css"
 import LeftNav from '../Left nav/LeftNav'

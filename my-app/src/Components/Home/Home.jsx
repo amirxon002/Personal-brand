@@ -47,46 +47,46 @@ function Home() {
 
 
 
-  const [link, setLink] = useState(); // Initial path for the link
+  const [link, setLink] = useState();
 
   const handleMouseEnter = () => {
     setTimeout(() => {
-      setLink('/promotion'); // Change the path after 2 seconds
-    }, 1500); // 2 seconds delay
+      setLink('/promotion');
+    }, 1500);
   };
 
   const handleMouseLeave = () => {
     setTimeout(() => {
-      setLink(); // Change back to default path after 2 seconds
-    }, 100); // 2 seconds delay
+      setLink(); 
+    }, 100); 
   };
 
-  const [link2, setLink2] = useState("/demonstration"); // Initial path for the link
+  const [link2, setLink2] = useState("/demonstration");
 
   const handleMouseEnter2 = () => {
     setTimeout(() => {
-      setLink2('/demonstration'); // Change the path after 2 seconds
-    }, 1500); // 2 seconds delay
+      setLink2('/demonstration'); 
+    }, 1500); 
   };
 
   const handleMouseLeave2 = () => {
     setTimeout(() => {
-      setLink2(); // Change back to default path after 2 seconds
-    }, 100); // 2 seconds delay
+      setLink2(); 
+    }, 100); 
   };
 
-  const [link3, setLink3] = useState("/positioning"); // Initial path for the link
+  const [link3, setLink3] = useState("/positioning");
 
   const handleMouseEnter3 = () => {
     setTimeout(() => {
-      setLink3('/positioning'); // Change the path after 2 seconds
-    }, 1500); // 2 seconds delay
+      setLink3('/positioning');
+    }, 1500); 
   };
 
   const handleMouseLeave3 = () => {
     setTimeout(() => {
-      setLink3(); // Change back to default path after 2 seconds
-    }, 100); // 2 seconds delay
+      setLink3();
+    }, 100); 
   };
 
   return (

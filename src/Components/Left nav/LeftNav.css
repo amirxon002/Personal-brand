@@ -1,0 +1,70 @@
+.nav-left 
+{
+    width: 13%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    box-shadow: 0px 25px 60px rgba(66, 85, 164, 0.06);
+    font-weight: 700;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    text-align: start;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+.nav-left a 
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 18px 0;
+    transition: .2s linear;
+}
+
+.nav-left .links-left a
+{
+    display: block;
+    color: #fff;
+    animation-name: shine;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shine {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff359a, 0 0 30px #ff359a, 0 0 40px #ff359a;
+    }
+    to {
+        text-shadow: 0 0 10px  #fff, 0 0 20px #ff6eb7, 0 0 30px #ff6eb7, 0 0 40px #ff6eb7, 0 0 50px #ff6eb7;
+    }
+}
+
+.links-left a:hover 
+{
+    font-size: 17px;
+}
+
+@media screen and (max-width:1000px) {
+    .nav-left .links-left a 
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .nav-left 
+    {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .nav-left {
+        display: none;
+    }
+}

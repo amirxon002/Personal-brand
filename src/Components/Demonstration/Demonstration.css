@@ -1,0 +1,16 @@
+.life-c 
+{
+    width: 87%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.life-c .text 
+{
+    line-height: normal;
+}
+
+.text p {
+    font-size: 16px;
+}

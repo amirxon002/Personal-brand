@@ -32,7 +32,6 @@ function App() {
             <div onClick={nav1} className="btnBars">
               <FaBars />
             </div>
-          {/* <div style={{transform: navBar ? "translate(0)" : "translateY(-100vh)"}} className="links"> */}
           <div className={navBar ? "links22" : "links"}>
             <div onClick={navClose} className="btnX">
               <FaXmark />
